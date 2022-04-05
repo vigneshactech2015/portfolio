@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+
+.skills{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr ;
+gap:50px;
+font-family: 'Poppins', sans-serif;
+width:10px;
+text-align: center;
+font-weight: lighter;
+margin-top:40px;
+}
+
+
+.skillname{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: lighter;
+    color: darkblue;
+    margin-left:4%;
+    margin-top:7%;
+}
+
+.box{
+    border:1px solid black;
+    padding-right: 100px;
+    height:70px;
+    text-align: center;
+    background-color:black;
+    color:bisque;
+    padding-left: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-weight: lighter;
+    transition:transform 0.3s;
+}
+
+.box:hover{
+    transform:scale(1.2);
+}
+
+.img{
+    margin-left:33%;
+    height:100px;
+    width:150px;
+    transition:transform 0.3s;
+}
+.img:hover{
+    transform:scale(1.5);
+}
+.display{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:5%;
+    margin-left:3%;
+    gap:80px;
+    padding:3% 0%;
+}
+
+.align{
+    margin-left:1%;
+    margin-top:10%;
+    width:90%;
+}
+
+@media(max-width:500px){
+            
+        .skillname{
+            font-family: 'Poppins', sans-serif; 
+            font-weight: lighter;
+            color: darkblue;
+            margin-left:4%;
+            margin-top:40%;
+        }
+        
+        
+        .img{
+            margin-left:18%;
+            height:60%;
+            width:80%;
+            transition:transform 0.3s;
+        }
+        .img:hover{
+            transform:scale(1.5);
+        }
+        .display{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top:5%;
+            margin-left:1%;
+            gap:10%;
+
+        }
+        
+        .align{
+            margin-left:1%;
+            margin-top:10%;
+        }
+
+}
